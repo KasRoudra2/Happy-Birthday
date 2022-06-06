@@ -1,0 +1,24 @@
+{
+  "name": "happy-birthday",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Wish your friend awesome happy birthday",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "birthday"
+  ],
+  "author": "KasRoudra",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
